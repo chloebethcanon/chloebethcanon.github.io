@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 16;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAC733;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    background-color: #101C2C;
+    color: #FFF8F5;
+    color: #FE8878;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+footer {
+    background-color: #101C2C;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: #101C2C;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-links a:link {
+    color: #101C2C;
+}
+
+.nav-links a:visited {
+    /*color: #695bf0;*/
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    background-color: #101C2C;
+}
+
+.nav-links a:active {
+    color: #ffffff;
+    background-color: #101C2C;
+}
+
+
+
+.callout {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Prata', serif;
+    line-height: 1.2;
+}
+
+h2.line1 {
+    color: #FE8878;
+}
+
+h2.line2 {
+    color: #f486ed;
+}
+
+h2.line3 {
+    color: #695bf0;
+}
+
+div.book-now {
+    text-align: center;
+    padding: 15px;
+}
+
+button.book-now {
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    background-color: #F58FE9;
+    color: #101C2C;
+    border: 1px solid #F58FE9;
+    border-radius: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+}
+
+button.book-now:hover {
+    background-color: #695bf0;
+    color: #ffffff;
+    border: 1px solid #695bf0;
+}
+
+
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    color: #ffffff;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    background-color: #101C2C;
+}
+
+img.graphic {
+    grid-column: 1 / -1;
+    grid-row: 3 / span 1;
+}
+
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;  
+}
+
+.skip a:focus{
+  top: 0px;
+}
+
+:focus{
+  border: 2px solid;
+}

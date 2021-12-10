@@ -357,9 +357,9 @@ button.book-now:hover {
         margin-right: auto;
     }
     
-      .facial-container {
+    .facial-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); 
         grid-gap: 20px;
         background-color: #101C2C;
         margin-left: auto;
